@@ -1,0 +1,14 @@
+<div class="container bg-light-grey">
+  <h1>{{author.fullname}}</h1>
+  <hr/>
+  <div class="row">
+    <div *ngFor="let book of author.books" class="col-md-12">
+      <div class="card border-secondary card-space">
+        <div class="card-body">
+          <h3>{{book.title}}</h3>
+          <p>{{book.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

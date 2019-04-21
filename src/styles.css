@@ -17,3 +17,10 @@
 .bg-light-grey {
   background-color: #EEE;
 }
+
+.card-space {
+  margin-bottom: 10px;
+}
+.card :hover {
+  background-color: #999;
+}
